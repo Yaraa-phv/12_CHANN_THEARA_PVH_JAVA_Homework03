@@ -36,4 +36,16 @@ public abstract class StaffMember {
     public String getAddress() {
         return address;
     }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 class Volunteer extends StaffMember{
     private double salary;
 
@@ -30,4 +28,5 @@ class Volunteer extends StaffMember{
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
 }
